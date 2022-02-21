@@ -2,6 +2,12 @@ import './Header.css';
 import React from 'react';
 
 export default ({black}) => {
+
+
+    const handleInput = () => {
+        
+    }
+
     return (
         <header className={black ? 'black' : ''}>
             <div className='header--logo'>
@@ -17,13 +23,15 @@ export default ({black}) => {
                     <li>Bombando</li>
                     <li>Minha lista</li>
                 </ul>
+
+                <span className="header--nav">Navegar <i class="fa-solid fa-caret-down" onClick={handleInput}></i></span>
                 
             </div>
             <div className='header--user'>
 
-                <div className="header--input">
+                <div className="header--input conf">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="search" name="search" id="search" />
+                    <input type="text" name="search" id="text" placeholder="Títulos, gente e gêneros"/>
                 </div>
 
                 <i class="fa-solid fa-bell "></i>

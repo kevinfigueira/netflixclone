@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import MovieRow from './components/MovieRow/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie/FeaturedMovie';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [movieList, setMovieList] = useState([]);
@@ -57,11 +58,7 @@ function App() {
         ))}
       </section>
 
-      <footer>
-        Feito com <span role="img" aria-label="coração">❤️</span> pela B7Web <br />
-        Direitos de imagens para Netflix <br />
-        Dados pego do site Themoviedb.org
-      </footer>
+      <Footer />
 
       {movieList <= 0 &&
         <div className="loading">

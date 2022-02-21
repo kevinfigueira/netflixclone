@@ -3,13 +3,13 @@
 
   &#xa0;
 
-  <!-- <a href="https://netflixclone.netlify.app">Demo</a> -->
+  <a href="https://netflixclone.netlify.app">Demo</a>
 </div>
 
 <h1 align="center">Netflixclone</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/kevifigueira/netflixclone?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/kevinfigueira/netflixclone?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/kevinfigueira/netflixclone?color=56BEB8">
 
@@ -17,11 +17,11 @@
 
   <img alt="License" src="https://img.shields.io/github/license/kevinfigueira/netflixclone?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/netflixclone?color=56BEB8" /> -->
+  <img alt="Github issues" src="https://img.shields.io/github/issues/kevinfigueira/netflixclone?color=56BEB8" />
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/netflixclone?color=56BEB8" /> -->
+  <img alt="Github forks" src="https://img.shields.io/github/forks/kevinfigueira/netflixclone?color=56BEB8" />
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/netflixclone?color=56BEB8" /> -->
+  <img alt="Github stars" src="https://img.shields.io/github/stars/kevinfigueira/netflixclone?color=56BEB8" />
 </p>
 
 <!-- Status -->
@@ -46,42 +46,42 @@
 
 ## :dart: About ##
 
-Describe your project
+Project developed in the study of React, with the objective of putting into practice all the knowledge acquired from the course together with Professor Bonieky Lacerda from the B7Web team.
+
+The Netflix clone was made for educational purposes and the data taken from the <a href="https://www.themoviedb.org/">Themoviedb</a> website
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: sliding screen;
+:heavy_check_mark: random movies on the main page;
+:heavy_check_mark: movie information;
+:heavy_check_mark: responsive;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/),
+- [Vitejs](https://vitejs.dev/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed, and also an account in <a href="https://www.themoviedb.org/">TMDB</a> to get your API key.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/netflixclone
+$ git clone https://github.com/kevinfigueira/netflixclone
 
 # Access
 $ cd netflixclone
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ npm run dev
 
 # The server will initialize in the <http://localhost:3000>
 ```

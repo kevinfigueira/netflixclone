@@ -28,8 +28,8 @@ header.black {
 
 .header--menuList {
     position: relative;
-    top: -10px;
-    left: -25px;
+    top: 4px;
+    left: 0px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -38,6 +38,18 @@ header.black {
 .header--menuList li {
     padding: 0 20px;
     font-size: 12px;
+}
+
+.header--nav {
+    display: none;
+    position: relative;
+    top: 4px;
+    left: 20px;
+    font-size: 13px;
+}
+
+.header--nav i {
+    padding-left: 5px;
 }
 
 .header--user {
@@ -49,6 +61,39 @@ header.black {
 .header--users {
     display: flex;
     align-items: center;
+}
+
+.header--user > .fa-bell {
+    padding-right: 20px;
+}
+.conf {
+    width: 280px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+
+.header--input {
+    background-color: #000;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: all ease .5s;
+}
+
+.header--input  i {
+    padding-right: 10px;
+}
+.header--input > #text {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 5px;
+    caret-color: #fff;
+    color: #fff;
 }
 
 .header--users > i {
@@ -63,5 +108,15 @@ header.black {
 @media (max-width: 960px) {
     .header--menuList {
         display: none;
+    }
+
+    .header--nav {
+        display: block;
+    }
+
+    .conf {
+        width: 0;
+        border: none;
+        padding: 0;
     }
 }
