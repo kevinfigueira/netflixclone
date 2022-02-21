@@ -52,16 +52,16 @@ The Netflix clone was made for educational purposes and the data taken from the 
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: sliding screen;
-:heavy_check_mark: random movies on the main page;
-:heavy_check_mark: movie information;
+:heavy_check_mark: sliding screen;\
+:heavy_check_mark: random movies on the main page;\
+:heavy_check_mark: movie information;\
 :heavy_check_mark: responsive;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [React](https://pt-br.reactjs.org/),
+- [React](https://pt-br.reactjs.org/)
 - [Vitejs](https://vitejs.dev/)
 
 ## :white_check_mark: Requirements ##
