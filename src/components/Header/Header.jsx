@@ -12,7 +12,7 @@ export default ({black}) => {
         <header className={black ? 'black' : ''}>
             <div className='header--logo'>
                 <a href="/">
-                    <img src="assets/netflix-logo.png" alt='Netflix'/>
+                    <img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png" alt='Netflix'/>
                 </a>
 
                 
@@ -38,7 +38,7 @@ export default ({black}) => {
 
                 <div className="header--users">
                     <a href='/'>
-                        <img src="assets/user.png" alt="Usuário" />
+                        <img src="https://i.pinimg.com/originals/b6/77/cd/b677cd1cde292f261166533d6fe75872.png" alt="Usuário" />
                     </a>
 
                     <i class="fa-solid fa-caret-down"></i>
