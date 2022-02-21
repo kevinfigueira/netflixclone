@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <a href="https://netflixclone.netlify.app">Demo</a>
+  <a href="https://netflixclone-net.netlify.app/">Demo</a>
 </div>
 
 <h1 align="center">Netflixclone</h1>
